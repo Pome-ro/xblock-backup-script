@@ -1,7 +1,7 @@
 properties {
     $OutputPath = Join-Path -Path .\ -ChildPath Output
     $configName = "XBS.Config"
-    $ScriptName = "disable-expired-users"
+    $ScriptName = "xblock-backup-script"
     $ScriptDIR = Join-Path -Path $OutputPath -ChildPath $ScriptName
 
 }
